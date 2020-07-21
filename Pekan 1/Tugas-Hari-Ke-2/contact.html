@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            p{
+                padding-left: 5px;
+            }
+            body{
+                background-image: url('public/img/pattern.jpg');
+            }
+            div {
+                width: max-content+ 10px;
+                border: 2px solid grey;
+                background-color: white;
+                padding: 25px;
+                margin: 20px;
+            }
+            #Nama{
+                margin-left: 80px;
+            }
+            #Email{
+                margin-left: 80px;
+            }
+            #Laki{
+                margin-left: 125px;
+            }
+            #Perempuan{
+                margin-left: 23px;
+            }
+            #Pesan{
+                margin-left: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Hubungi Kami</h1>
+            <p>
+                <b>Kantor : </b> di jalan belum jadi<br>
+                <b>Nomor Telepon : </b> 08XX-XXXX-XXXX<br>
+                <b>Email : </b> email@contoh.com<br>
+            </p>
+            <h1>Kirimkan Pesan</h1>
+            <form>
+                <label for="Nama"><b>Nama</b></label>
+                <input type="text" id="Nama" name="Nama"><br><br>
+                <label for="Email"><b>Email</b></label>
+                <input type="email" id="Email" name="Email"><br><br>
+
+                <input type="radio" id="Laki" name="Gender" value="Laki">
+                <label for="Laki">Laki-laki</label><br>
+                <label for="Gender"><b>Jenis Kelamin</b></label>
+                <input type="radio" id="Perempuan" name="Gender" value="Perempuan">
+                <label for="Perempuan">Perempuan</label><br><br>
+                <label for="Pesan"><b>Pesan Anda</b></label>
+                <textarea id="Pesan" name="Pesan" rows="5" cols="40"></textarea><br><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+        <a href="index.html">Kembali Ke Index</a>
+    </body>
+</html>
