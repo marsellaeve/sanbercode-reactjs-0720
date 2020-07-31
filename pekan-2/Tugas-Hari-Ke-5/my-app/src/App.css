@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+}
+p{
+  padding-left: 5px;
+}
+.kotak {
+  width: max-content;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+}
+#Nama{
+  margin-left: 50px;
+}
+#buah1{
+  margin-left: 180px;
+}
+#buah2{
+  margin-left: 180px;
+}
+#buah3{
+  margin-left: 180px;
+}
+#buah4{
+  margin-left: 180px;
+}
+#buah5{
+  margin-left: 93px;
+}
+#button{
+  background-color: white;
+  border-color: black;
+  border-radius: 10px;
+}
